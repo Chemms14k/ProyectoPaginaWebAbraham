@@ -1,0 +1,42 @@
+.MenuCabecera{
+    background-color: red;
+    width: 100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner{
+    background-color: #1D70B8;
+    width: 100%;
+    height: 120px;
+}
+.cajacolumnas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.columnas{
+    flex: 1;
+   background-color: rgb(26, 248, 56);
+   border: 1px;
+   text-align: center;
+}
+.colorverde{
+    background-color: green;
+    height:150px;
+}
+.colornaranja{
+    background-color: orangered;
+    height: 150px;
+}
+.colorazul{
+    background-color: blue;
+    height: 150px;
+}
+.final{
+    background-color: rgb(171, 96, 66);
+    width: 100%;
+    height: 120px;
+}
