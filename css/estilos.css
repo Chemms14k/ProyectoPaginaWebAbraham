@@ -1,5 +1,5 @@
 .MenuCabecera{
-    background-color: red;
+    background-color: #a4cdd9;
     width: 100%;
 }
 *{
@@ -7,9 +7,12 @@
     padding: 0%;
 }
 .banner{
-    background-color: #1D70B8;
+    background-image: url(../imagenes/2803973_402900-PD5O7L-766\ copy.jpg);
     width: 100%;
-    height: 120px;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
 }
 .cajacolumnas{
     display: flex;
@@ -39,4 +42,26 @@
     background-color: rgb(171, 96, 66);
     width: 100%;
     height: 120px;
+}
+.MenuSuperior li{
+    display: inline;
+    padding: 5px;
+    border-right: solid 2px black;
+}
+.MenuSuperior{
+    text-transform:uppercase;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+}
+.MenuSuperior li a:hover{
+    color:#e2430c ;
+    background-color: #73A9B8;
+    text-decoration: underline;
+}
+li a{
+    text-decoration: none;
+}
+.MenuSuperior li:last-child{
+    border-right: none;
 }
