@@ -43,9 +43,9 @@
     height: 150px;
 }
 .final{
-    background-color: #1b8ebc;
+    background-color: #9a9ebc;
     width: 100%;
-    height: 120px;
+    height: 130;
 }
 .MenuSuperior li{
     display: inline;
@@ -56,11 +56,10 @@
     text-transform:uppercase;
     font-weight: bold;
     text-align: right;
-    padding: 20px;
+    padding: 4px;
 }
 .MenuSuperior li a:hover{
     color:#e2430c ;
-    background-color: #73A9B8;
     text-decoration: underline;
 }
 li a{
@@ -76,7 +75,7 @@ li a{
 form{
     padding: 15px;
 }
-input{
+input[type=text]{
     width:100% ;
     height: 15px;
     border-radius:15px ;
@@ -84,4 +83,23 @@ input{
 textarea{
     width: 100%;
     height: 120px;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(20,200,30,0.3);
+    padding: 10px;
+    color: orangered;
+}
+input[type=submit]:hover{
+    background-color: rgb(20,200,30,0.8);
+    cursor: pointer;
+}
+li a img{
+    width: 32px;
+}
+li a img:hover{
+    opacity: 30%;
+}
+.derechos{
+    padding: 15px;
 }
