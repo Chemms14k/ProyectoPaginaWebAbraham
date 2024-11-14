@@ -50,13 +50,15 @@
 .MenuSuperior li{
     display: inline;
     padding: 5px;
-    border-right: solid 2px black;
 }
 .MenuSuperior{
     text-transform:uppercase;
     font-weight: bold;
     text-align: right;
     padding: 4px;
+}
+.bordederecho li{
+    border-right: 1px solid black;
 }
 .MenuSuperior li a:hover{
     color:#e2430c ;
